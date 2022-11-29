@@ -39,7 +39,7 @@ app.listen(3001, () => {
 
 
 function config(head,Mymessage){
-  const serverKey = 'AAAAi_c2Kao:APA91bF5IBiiZfuSsllKYXoMqF7xTc6z9ZaNTnuyshqASe6W2xSFjAuyDps8BAyn8uadoI-JCIAYyMmVu2ypQou_NS_rwVXF3ZzNz_mGm-x0n-UzpE79yTMCIRJsbHqsaWgYJWjQBsdP';
+  const serverKey = '<FCM Server key>';
   var fcm = new FCM(serverKey);
   if(head != null && Mymessage != null){
     
